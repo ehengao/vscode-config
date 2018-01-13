@@ -1,0 +1,158 @@
+{
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        79
+    ],
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "team.appInsights.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "go.goroot": "/usr/local/go",
+    "go.gotoSymbol.includeImports": true,
+    "go.formatTool": "goimports",
+    "go.autocompleteUnimportedPackages": true,
+    "team.showWelcomeMessage": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "python.autoComplete.preloadModules": [
+        "numpy",
+        "pandas",
+        "matplotlib"
+    ],
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Enabled": true,
+    // "workbench.iconTheme": "material-icon-theme",
+    "vim.leader": ",",
+    "vim.disableExtension": false,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/bin/nvim",
+    "vim.easymotion": true,
+    "vim.cmdLineInitialColon": true,
+    "vim.otherModesKeyBindings": [
+        
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Z",
+                "Z"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "ctrl+w",
+                "c"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "ctrl+w",
+                ">"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.increaseViewSize",
+                    "args": []
+                }
+            ]
+        },
+       {
+            "before": [
+                "ctrl+w",
+                "<"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.decreaseViewSize",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "ctrl+w",
+                "shift+L"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.decreaseViewSize",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.previewDeclaration",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.peekImplementation",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.referenceSearch.trigger",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    }
+}

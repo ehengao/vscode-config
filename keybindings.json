@@ -1,0 +1,34 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "ctrl+k ctrl+shift+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+},
+{
+    "key": "ctrl+k b",
+    "command": "workbench.action.toggleSidebarVisibility",
+},
+{
+    "key": "ctrl+shift+backspace",
+    "command": "toggleVim",
+},
+{
+    "key": "alt+left",
+    "command": "editor.action.moveCarretLeftAction"
+},
+{
+    "key": "alt+right",
+    "command": "editor.action.moveCarretRightAction"
+},
+{
+    "key": "alt+shift+=",
+    "command": "workbench.action.increaseViewSize"
+},
+{
+    "key": "alt+shift+-",
+    "command": "workbench.action.decreaseViewSize"
+},
+{
+    "key": "alt+shift+\\",
+    "command": "workbench.action.switchWindow"
+},
+]
